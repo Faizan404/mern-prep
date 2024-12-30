@@ -1,0 +1,29 @@
+CHALLENGE 1:
+
+Problem: Real-time Search with Caching
+Create a React application that implements a search functionality with the following requirements:
+
+Requirements:
+👍Create a search input field that allows users to search for movies
+👍As the user types, fetch results from the API (use this mock API:     https://api.themoviedb.org/3/search/movie)
+👍Implement proper loading and error states
+Cache the search results to avoid unnecessary API calls for the same search term
+👍Implement a debounce mechanism to optimize API calls
+Show the last 5 search terms below the search input
+👍Each movie result should display:
+Movie title
+Release year
+A small poster image
+Rating
+Technical Requirements:
+Use functional components and hooks
+Implement proper TypeScript types
+Handle edge cases (empty states, errors, etc.)
+Implement proper cleanup to prevent memory leaks
+Follow React best practices
+Make it responsive
+Bonus Points:
+Implement keyboard navigation for search results
+Add unit tests
+Implement infinite scrolling for results
+Add a dark/light theme toggle
